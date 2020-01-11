@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.heading{
+  text-align:center;
+}
+/* ここからヘッダー部分 */
+header{
+  width: 100%;
+  background-color: white;
+}
+.header-logo{
+  height:70%;
+  width:70%;
+  padding-top:25px;
+  float:right;
+}
+.header-left{
+  float:left;
+  /* position: relative; */
+/* width:80%; */
+}
+.header-left h1{
+  float:left;
+  position: absolute; 
+  top:78px; 
+  left:200px;
+  color:gray;
+  font-family: 'Quicksand', sans-serif;
+  font-size:25px;
+  font-weight:normal;
+  letter-spacing:0.2em;
+}
+.header-right{
+  display:flex;
+  float:right;
+  position: absolute; 
+  top:40px; 
+  left:60%;
+}
+
+.header-right_wrapper{
+  width:150px;
+  height:150px;
+  border-radius:100%;
+  margin-right:30px;
+  background-color:#FFA500;
+  opacity:0.7;
+  text-align:center;
+  position: relative;
+}
+
+.header-right_wrapper:hover{
+ opacity:1;
+}
+.header-right_wrapper p{
+  position:absolute;
+  top:33%;
+  left:10%;
+  font-size:14px;
+  color:white;
+  /* margin-top:65px; */
+}
+
+/* トップ部分 */
+.top-wrapper{
+
+}
+
+.container-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78vh;
+  color:gray;
+  font-family: 'Quicksand', sans-serif;
+  width:100%;
+}
+.top-box {
+  padding: 20px;
+  margin-bottom:140px;
+  text-align: center;
+  z-index:1;
+}
+.top-box p {
+  color: #FFA500;
+}
+
+/* ここまでトップ */
+
+/* ここからメイン */
+
+.main-wrapper{
+  padding:100px 0px;
+  background-color:#f5f5f5;
+}
+.main-container{
+background-color:white;
+padding:50px 0px;
+border-radius:50px;
+}
+
+.main-contents{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.main-contents_left{
+  margin-right:500px;
+  position: relative;
+}
+.main-contents_left img{
+  position: absolute;
+  top:0;
+  left:120%;
+  width:200px;
+}
+.main-contents_right{
+  margin-left:500px;
+  position: relative;
+}
+.main-contents_right img{
+  position: absolute;
+  top:0;
+  right:130%;
+  width:20%;
+}
+.main-contents h2{
+  background-color:rgb(46,139,87,0.7);
+  font-size:18px;
+  font-weight:normal;
+  padding:20px;
+  margin-top:90px;
+  color:white;
+  text-align:center;
+  
+}
+.main-contents_left h2{
+  border-radius: 0px 30px 30px 0px;
+}
+.main-contents_right h2{
+  border-radius: 30px 0px 0px 30px;
+}
+.main-contents p{
+  text-align:center;
+  color:gray;
+}
+
+/* ここまでメイン */
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+  padding-top:80px;
+}
+
+.btn-wrapper h3{
+  padding-bottom:40px;
+  color:gray;
+}
+
+/* ここからボタン */
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic,cyrillic-ext,latin-ext';
+
+button {
+  width:180px;
+  /* color:#454545; */
+  background:transparent;
+  border-width:2px;
+  border-style: solid;
+  /* border-color: #454545; */
+  position:relative;
+  margin:1em;
+  /* display:inline-block; */
+  /* padding:0.9em 10em; */
+  padding:13px 0px;
+  transition:all 0.3s ease-in-out;
+  text-align:center;
+  font-family:comfortaa;
+  font-weight:bold
+}
+  button:before, button:after {
+    content:'';
+    display:block;
+    position:absolute;
+    border-color:#454545;
+    box-sizing:border-box;
+    border-style:solid;
+    width:1em;
+    height:1em;
+    transition:all 0.3s ease-in-out;
+  }
+  button:before {top:-6px;left:-6px;border-width:2px 0 0 2px;z-index:5;}
+  button:after {bottom:-6px;right:-6px;border-width:0 2px 2px 0;}
+  button:hover:before, button:hover:after {width:calc(100% + 12px);
+    height:calc(100% + 12px);border-color:#fff}
+  button:hover {color:#353535;background-color:#fff;border-color:#fff}
+  .panel {max-width:960px;text-align:center;position:relative;margin:auto;}
+  
+
+.pink button {color:#FFA500;border-color:#FFA500}
+.pink button:before, .pink button:after  {border-color:#FFA500}
+.pink button:hover:before, .pink button:hover:after {border-color:#FFA500;}
+.pink button:hover {color:#fff;background-color:#FFA500;border-color:#FFA500;}
+.pink .panel {
+  max-width:960px;text-align:center;position:relative;margin:auto;
+}
+
+
+.btn-bottom{
+  height:30vh;
+}
+
+/* ここからフッター */
+footer h5 {
+  font-size: 12px;
+  font-weight:normal;
+}
+
+footer {
+  padding-top: 30px;
+  color: #b3aeb5;
+}
