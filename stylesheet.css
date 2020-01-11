@@ -196,7 +196,7 @@ button {
   transition:all 0.3s ease-in-out;
   text-align:center;
   font-family:comfortaa;
-  font-weight:bold
+  font-weight:bold;
 }
   button:before, button:after {
     content:'';
