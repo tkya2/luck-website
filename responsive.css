@@ -1,63 +1,84 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  footer {
-    text-align: center;
-  }
-
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
+  .header-right{
+    display:none;
   }
   
 }
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
-  .top-wrapper {
-    background-image: url(https://www.pakutaso.com/shared/img/thumb/KZ18610cyuzenjiko_TP_V4.jpg);
-  }
-  
-
-  .lesson {
-    width: 100%;
-  }
-
-  .btn {
-    width: 100%;
-  }
-
-  .facebook {
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper {
-    text-align: left;
-  }
-
-
   .header-right{
     display:none;
   }
-  
-  .menu-icon{
-    display:block;   
+  .header-logo{
+    height:50%;
+    width:50%;
+    text-align:center;
+    /* padding-top:25px; */
+    margin-left:10px;
+    float:none;
   }
-  
-  .top-wrapper h1 {
-    font-size: 24px;
+  .header-left h1{
+    font-size:18px;
+    font-weight:normal;
+    letter-spacing:0.1em; 
+    top:70px;
+    left:120px;
   }
+  .top-box{
+    font-size:80%;
+  }
+  /* ここからメイン */
+    .main-container{
+      padding:45px 0px;
+      width:80%;
+    }
 
-  .top-wrapper p {
-    font-size: 14px;
-  }
+    .main-contents_left{
+      margin-right:100px;
+    }
+    .main-contents_left img{
+      top:30px;
+      left:95%;
+      width:160px;
+    }
+    .main-contents_right{
+      margin-left:100px;
+    }
+    .orange-logo-pc{
+      display:none;
+    }
+    .orange-logo-mv{
+      width:120px;
+      float:right;
+    }
+    .main-contents_right img{
+      position: absolute;
+      top:30px;
+      right:110%;
+      width:100px;
+    }
+    .main-contents h2{
+      font-size:12px;
+    }
+    .main-contents p{
+      font-size:11px;
+    }
+    /* ここまでメイン */
+
+    /* ここからフッター */
+    button {
+      width:120px;
+      padding:10px 0px;
+    }
+    .btn-wrapper h3{
+      font-size:16px;
+    }
+    footer{
+      font-size:40%;
+    }
+
 }
 
 
