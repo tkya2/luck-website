@@ -124,6 +124,9 @@ border-radius:50px;
 .main-contents{
   font-family: 'Quicksand', sans-serif;
 }
+.orange-logo-mv{
+  display:none;
+}
 
 .main-contents_left{
   margin-right:500px;
