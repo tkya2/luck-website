@@ -1,0 +1,66 @@
+
+.detail-wrapper{
+  width:100%;
+  background-color:hsl(0, 0%, 96%);
+  text-align:center;
+  padding:70px 0px;
+  color:#696969;
+  
+}
+.detail-wrapper h1{
+  font-weight:normal;
+  font-family: 'Quicksand', sans-serif;
+  padding-bottom:30px;
+}
+.detail-wrapper h2{
+  font-weight:normal;
+  font-family: 'Quicksand', sans-serif;
+  padding-bottom:30px;
+}
+
+.detail-container{
+  width: 70%;
+  margin:auto;
+  background-image:url(img/PAK86_komorebitohizashi_TP_V.jpg);
+  background-size:cover;
+  padding:150px 0px;
+  border-radius:25px;
+  margin-bottom:80px;
+}
+.detail-container-second{
+  background-image:url(img/shiroTM620GFVL3424_TP_V.jpg);
+}
+.detail-description{
+  background:rgba(255,255,255,0.7);
+padding:50px 0px;
+}
+
+.agreement-contents{
+  padding:0px 0px;
+  width:70%;
+  margin:auto;
+  background-color:white;
+  border-radius:25px;
+  background-image:url(img/mizuhoDSC_0325_TP_V.jpg);
+  background-size:cover;
+}
+.agreement-contents h2{
+  background-color:rgba(255,255,255,0.9);
+  border-radius:23px 23px 0px 0px;
+  padding:50px;
+}
+.agreement-contents table{
+  font-family: 'Quicksand', sans-serif;
+  margin:auto;
+  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 30px;
+  padding:120px 0px;
+  /* border:solid 1px  gray; */
+}
+.agreement-contents tr td{
+  padding:20px;
+  /* border: solid 1px gray; */
+  background:rgba(255,255,255,0.9);
+  border-radius:100px;
+}

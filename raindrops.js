@@ -1,5 +1,5 @@
 jQuery(".container-top").raindrops({
     color: "#FFA500",
-    canvasHeight: 350
+    canvasHeight: 400
   });
 

@@ -1,0 +1,45 @@
+
+.projects-wrapper{
+  width:100%;
+  background-color:hsl(0, 0%, 96%);
+  text-align:center;
+  padding:70px 0px;
+  color:#696969;
+  
+}
+.projects-wrapper h1{
+  font-weight:normal;
+  font-family: 'Quicksand', sans-serif;
+  padding-bottom:30px;
+}
+.projects-wrapper h2{
+  font-weight:normal;
+  font-family: 'Quicksand', sans-serif;
+  padding-bottom:30px;
+}
+.projects-contents{
+  padding:200px 0px;
+  width:70%;
+  margin:auto;
+  background-color:white;
+  border-radius:25px;
+  background-image:url(img/STOCKER1202072.jpg);
+  background-size:cover;
+}
+.projects-contents table{
+  font-family: 'Quicksand', sans-serif;
+  margin:auto;
+  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 5px;
+  /* border:solid 1px  gray; */
+}
+.projects-contents tr td{
+  padding:50px;
+  /* border: solid 1px gray; */
+  background:rgba(255,255,255,0.9);
+  border-radius:100px;
+}
+.projects-contents td{
+  margin-bottom:100px;
+}

@@ -26,6 +26,9 @@
     top:70px;
     left:120px;
   }
+  .container-top {
+    height: 60vh;
+  }
   .top-box{
     font-size:80%;
   }
@@ -46,6 +49,9 @@
     .main-contents_right{
       margin-left:100px;
     }
+    .main-contents_company-image{
+      margin-left:100px;
+    }
     .orange-logo-pc{
       display:none;
     }
@@ -59,6 +65,12 @@
       top:30px;
       right:110%;
       width:100px;
+    }
+    .main-contents_company-image img{
+      position: absolute;
+      top:30px;
+      right:90%;
+      width:170px;
     }
     .main-contents h2{
       font-size:11px;
@@ -79,6 +91,82 @@
     footer{
       font-size:40%;
     }
+
+    /* ここからprojects */
+    .projects-wrapper{
+      padding:50px 0px;
+    }
+    .projects-wrappe h1{
+      font-size:90%;
+      padding-bottom:15px;
+    }
+    .projects-wrappe h2{
+      font-size:90%;
+      padding-bottom:15px;
+    }
+    .projects-contents{
+      padding:70px 0px;
+    }
+    table{
+      font-size:12px;
+    }
+    .projects-contents tr td{
+      padding:10px 20px;
+    }
+    /* ここからdetail */
+
+    .detail-wrapper{
+      padding:70px 0px;
+    }
+    .detail-wrapper h1{
+      font-size:20px;
+    }
+    .detail-wrapper h2{
+      font-size:18px;
+    }
+    
+    .detail-container{
+      width: 90%;
+      margin:auto;
+      background-image:url(img/PAK86_komorebitohizashi_TP_V.jpg);
+      background-size:cover;
+      padding:60px 0px;
+      border-radius:25px;
+      margin-bottom:80px;
+    }
+    .detail-description{
+      background:rgba(255,255,255,0.9);
+    padding:50px 0px;
+    }
+    
+    .agreement-contents{
+      padding:30px 0px;
+      width:90%;
+      margin:auto;
+      background-color:white;
+      border-radius:25px;
+      background-image:url(img/mizuhoDSC_0325_TP_V.jpg);
+      background-size:cover;
+    }
+    .agreement-contents table{
+      font-family: 'Quicksand', sans-serif;
+      margin:auto;
+      border-collapse: collapse;
+      border-collapse: separate;
+      border-spacing: 30px;
+      /* border:solid 1px  gray; */
+    }
+    .agreement-contents tr td{
+      padding:20px;
+      /* border: solid 1px gray; */
+      background:rgba(255,255,255,0.9);
+      border-radius:100px;
+    }
+    .agreement-contents td{
+      margin-bottom:100px;
+    }
+
+
 
 }
 
