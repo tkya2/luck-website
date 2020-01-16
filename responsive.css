@@ -35,10 +35,10 @@
   .header-menu{
     display:block;
     float:right;
-    padding-top:40px;
+    padding-top:48px;
   }
   .fa-bars{
-    font-size:40px;
+    font-size:20px;
     padding:0px;
   }
   .menu_list {
