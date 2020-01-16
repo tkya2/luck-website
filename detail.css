@@ -19,7 +19,7 @@
 }
 
 .detail-container{
-  width: 70%;
+  width: 60%;
   margin:auto;
   background-image:url(img/PAK86_komorebitohizashi_TP_V.jpg);
   background-size:cover;
@@ -34,10 +34,14 @@
   background:rgba(255,255,255,0.7);
 padding:50px 0px;
 }
+.detail-writer{
+  margin:auto;
+  width:50%;
+}
 
 .agreement-contents{
   padding:0px 0px;
-  width:70%;
+  width:60%;
   margin:auto;
   background-color:white;
   border-radius:25px;
