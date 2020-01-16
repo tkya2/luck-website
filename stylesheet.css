@@ -66,18 +66,20 @@ header{
 
 .header-contents{
   position: relative;
-  background-color:orange;
+  background-color:rgba(255, 172, 29,0.8);
   border-radius:100px;
-  width:150px;
-  height:150px;
+  width:120px;
+  height:120px;
   margin-right:50px;
+  margin-top:15px;
 }
 .header-right p{
   width:100%;
+  font-size:12px;
   float:right;
   position: absolute;
-  top:80px;
-  background-color:rgba(106, 56, 5, 0.9);
+  top:70px;
+  background-color:rgba(106, 56, 5, 0.8);
   border-radius:100px;
   color:whitesmoke;
   text-align:center;
@@ -85,7 +87,7 @@ header{
 }
 
 .header-right_img{
-  width:140px;
+  width:110px;
   padding-top:15px;
   padding-left:10px;
 }
