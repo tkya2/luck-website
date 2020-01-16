@@ -8,6 +8,10 @@
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
+  header{
+    height:180px;
+  }
+
   .header-right{
     display:none;
   }
@@ -100,12 +104,12 @@
     .projects-wrapper{
       padding:50px 0px;
     }
-    .projects-wrappe h1{
-      font-size:90%;
+    .projects-wrapper h1{
+      font-size:24px;
       padding-bottom:15px;
     }
-    .projects-wrappe h2{
-      font-size:90%;
+    .projects-wrapper h2{
+      font-size:20px;
       padding-bottom:15px;
     }
     .projects-contents{
