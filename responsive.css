@@ -9,27 +9,89 @@
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
   header{
-    height:180px;
+    height:150px;
   }
 
-  .header-right{
+  .header-contents{
     display:none;
   }
+
   .header-logo{
-    height:50%;
-    width:50%;
+    height:350;
+    width:35%;
     text-align:center;
     /* padding-top:25px; */
     margin-left:10px;
     float:none;
   }
   .header-left h1{
-    font-size:18px;
+    font-size:14px;
     font-weight:normal;
     letter-spacing:0.1em; 
-    top:70px;
-    left:120px;
+    top:55px;
+    left:80px;
   }
+  /* メニュー */
+  .header-menu{
+    display:block;
+    float:right;
+    padding-top:40px;
+  }
+  .fa-bars{
+    font-size:40px;
+    padding:0px;
+  }
+  .menu_list {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu_list .nav_item {
+    position: relative;
+  }
+  .menu_list .nav_item .panel {
+    position: absolute;
+    top: 52px;
+    /* left: 0;
+    right: 0; */
+    margin: auto;
+    overflow: hidden;
+    background:wheat;
+    width: 100%;
+    display: none;
+    border-radius:10px;
+  }
+  
+  .menu_list .nav_item .panel .panel_item {
+    display: inline-block;
+    /* margin: 10px 0; */
+    padding:10px;
+    font-size:10px;
+  }
+  
+  .menu_list .nav_item .panel .panel_item a {
+    color:gray;
+  }
+  
+  .menu_list .nav_item {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin-right:10px;
+  }
+  
+ .menu_list .nav_item a {
+   color:gray;
+     /* padding:10px; */
+  }
+ .panel-inner{
+  padding:0px;
+ }
+ /* .panel a{
+   color:gray;
+ } */
+
+  /* メニュー */
+
   .container-top {
     height: 60vh;
   }

@@ -57,11 +57,13 @@ header{
   display:flex;
   float:right;
   padding-top:40px;
-  
-  /* position: absolute; 
-  top:40px; 
-  left:60%; */
 }
+/* メニュー */
+.header-menu{
+  display:none;
+}
+/* メニュー */
+
 .header-contents{
   position: relative;
   background-color:orange;
@@ -151,6 +153,10 @@ border-radius:50px;
 
 .main-contents{
   font-family: 'Quicksand', sans-serif;
+}
+.main-contents-writer{
+  width:60%;
+  margin:auto;
 }
 .orange-logo-mv{
   display:none;
