@@ -1,27 +1,55 @@
 /* タブレット向けレイアウト */
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1350px) {
   .header-right{
     display:none;
   }
-  
-}
+  .menu{
+    display:block;
+    float:right;
+    padding-top:73px;
+    padding-right:50px;
+    color:grey;  }
+  .menu-title{
+    border-bottom:1px solid #CCC;
+  }
+  .menu-list-item {
+   margin:10px;
+   position:relative;
+   cursor:pointer;
+   text-align: left;
+ }
+ 
+ .menu-list-item h3 {
+   font-size: 23px;
+   font-weight:normal;
+ }
+ 
+ .menu-name {
+   font-size: 18px;
+   /* padding: 5px 0px; */
+   /* margin-bottom: 5px; */
+   /* displayプロパティをnoneにしてください */
+   display: none;
+ }
+ .menu-name p{
+   font-size:14px;
+   text-align:center;
+   color:grey;
+ }
 
 /* スマホ向けレイアウト */
-@media all and (max-width: 670px) {
+@media all and (max-width: 900px) {
   header{
     height:150px;
   }
-
-  .header-contents{
-    display:none;
+  .header-menu{
+    display:block;
   }
-
   .header-logo{
     height:350;
-    width:35%;
-    text-align:center;
-    /* padding-top:25px; */
-    margin-left:10px;
+    width:70%;
+    padding-top:39px;
+    padding-left:30px;
     float:none;
   }
   .header-left h1{
@@ -29,76 +57,33 @@
     font-weight:normal;
     letter-spacing:0.1em; 
     top:55px;
-    left:80px;
+    left:120px;
   }
-  /* メニュー */
-  .header-menu{
-    display:block;
-    float:right;
-    padding-top:48px;
+
+  .main-contents-writer{
+    width:80%;
+    margin:auto;
   }
-  .fa-bars{
-    font-size:20px;
-    padding:0px;
-  }
-  .menu_list {
-    display: flex;
-    justify-content: space-around;
-  }
-  .menu_list .nav_item {
-    position: relative;
-  }
-  .menu_list .nav_item .panel {
-    position: absolute;
-    top: 52px;
-    /* left: 0;
-    right: 0; */
-    margin: auto;
-    overflow: hidden;
-    background:wheat;
-    width: 100%;
-    display: none;
-    border-radius:10px;
-  }
-  
-  .menu_list .nav_item .panel .panel_item {
-    display: inline-block;
-    /* margin: 10px 0; */
-    padding:10px;
+/* レスポンシブメニュー */
+  .faq{
+    padding-top:45px;
+    padding-right:8px;
+   }
+  .faq-list-item h3 {
+    font-size:14px;
+   }
+  .answer p{
     font-size:10px;
-  }
-  
-  .menu_list .nav_item .panel .panel_item a {
-    color:gray;
-  }
-  
-  .menu_list .nav_item {
-    display: block;
-    width: 100px;
-    text-align: center;
-    margin-right:10px;
-  }
-  
- .menu_list .nav_item a {
-   color:gray;
-     /* padding:10px; */
-  }
- .panel-inner{
-  padding:0px;
- }
- /* .panel a{
-   color:gray;
- } */
+   }
+    /* メニュー終わり */
 
-  /* メニュー */
-
-  .container-top {
-    height: 60vh;
-  }
-  .top-box{
-    font-size:80%;
-    margin-bottom:230px;
-  }
+    .container-top {
+      height: 60vh;
+    }
+    .top-box{
+      font-size:80%;
+      margin-bottom:230px;
+    }
   /* ここからメイン */
     .main-container{
       padding:45px 0px;
@@ -119,12 +104,12 @@
     .main-contents_company-image{
       margin-left:100px;
     }
-    .orange-logo-pc{
+    .luck-logo-pc{
       display:none;
     }
-    .orange-logo-mv{
+    .luck-logo-mv{
       display:block;
-      width:120px;
+      width:110px;
       float:right;
     }
     .main-contents_right img{
@@ -163,19 +148,8 @@
     }
 
     /* ここからprojects */
-    .projects-wrapper{
-      padding:50px 0px;
-    }
-    .projects-wrapper h1{
-      font-size:24px;
-      padding-bottom:15px;
-    }
-    .projects-wrapper h2{
-      font-size:20px;
-      padding-bottom:15px;
-    }
-    .projects-contents{
-      padding:70px 0px;
+    .detail-container-top{
+      height:20vh;
     }
     table{
       font-size:12px;
@@ -183,13 +157,18 @@
     .projects-contents tr td{
       padding:10px 20px;
     }
-    /* ここからdetail */
-
-    .detail-wrapper{
-      padding:70px 0px;
+    .map-wrapper{
+      width:350px;
+      margin:auto;
+     }
+    .luck-map{
+      width:350px;
+      height:250px;
     }
-    .detail-wrapper h1{
-      font-size:20px;
+    
+    /* ここからdetail */
+    .detail-top-wrapper{
+      font-size:40%;
     }
     .detail-wrapper h2{
       font-size:18px;
@@ -238,9 +217,55 @@
     .agreement-contents td{
       margin-bottom:100px;
     }
-
-
-
+/* ここからpersonnel */
+.personnel-top-wrapper{
+  font-size:40%;
+}
+.personnel-container-top{
+  height: 30vh;
+}
+.personnel_member{
+  background-image:url(img/bluesoda.jpg);
+}
+.personnel_member_second{
+  background-image:url(img/p3959.jpg);
+}
+.personnel_member_therd{
+  background-image:url(img/MIZUHODSC_0263_TP_V4.jpg);
+}
+.personnel_writer{
+  width:55%;
+  margin:auto;
 }
 
+.personnel_description{
+  width:60%;
+  margin:auto;
+}
+/* ここからコンタクト */
+.contact-top-wrapper{
+  font-size:50%;
+}
+/* スライダー */
+.swiper-container-arange{
+  width: 420px;
+  height: 210px;
+  margin:auto;
+}
+.swiper-container {
+  width: 320px;
+  height:210px;
+}
+.slide-item p{
+  padding:40px;
+  margin-top:60px;
+  font-size:70%;
+}
+.slide-item:nth-child(1){
+  background-image:url(img/picnick-slide.jpg);
+}
 
+/* ここまでメディアクエリ900以下 */
+
+}
+}

@@ -1,0 +1,42 @@
+.contact-top-wrapper{
+  font-size:70%;
+}
+.contact-container-top{
+  background-color:hsl(0, 0%, 97%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  color:gray;
+  font-family: 'Quicksand', sans-serif;
+  width:100%;
+}
+.contact-top-box{
+  padding: 20px;
+  text-align: center;
+  z-index:1;
+}
+.contact-top-box h1,h2{
+  font-weight:normal;
+}
+.contact-form-contents{
+  height:1400px;
+  background-image:url(img/p9367.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color:hsl(0, 0%, 97%);
+}
+.contact-form{
+  color:gray;
+  text-align:center;
+  font-size:70%;
+  /* font-weight:lighter; */
+  margin-bottom:100px;
+  background-color:hsl(0, 0%, 97%);
+}
+.contact-form h1,h2{
+  /* font-size:90%; */
+  font-weight:normal;
+  
+}

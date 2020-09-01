@@ -1,9 +1,26 @@
-
+.detail-top-wrapper{
+  font-size:80%;
+}
+.detail-container-top{
+  background-color:hsl(0, 0%, 96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  color:gray;
+  width:100%;
+}
+.detail-top-box{
+  text-align: center;
+  z-index:1;
+}
+.detail-top-box h1,h2{
+  font-weight:normal;
+}
 .projects-wrapper{
   width:100%;
   background-color:hsl(0, 0%, 96%);
   text-align:center;
-  padding:70px 0px;
   color:#696969;
   
 }
@@ -43,3 +60,17 @@
 .projects-contents td{
   margin-bottom:100px;
 }
+.map-wrapper{
+ padding-top:100px;
+ text-align:center;
+ width:800px;
+ margin:auto;
+}
+.map-wrapper p{
+  color:gray;
+}
+.luck-map{
+  width:600px;
+  height:450px;
+}
+

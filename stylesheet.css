@@ -32,18 +32,20 @@ header{
   height:230px;
 }
 .header-logo{
-  height:70%;
-  width:70%;
-  padding-top:25px;
+  /* height:70%;
+  width:70%; */
+  padding-top:50px;
+  padding-left:40px;
+  /* margin-left:40px; */
   float:right;
 }
 .header-left{
   float:left;
-  /* position: relative; */
-/* width:80%; */
+  /* width:600px; */
 }
+
 .header-left h1{
-  float:left;
+  /* float:left; */
   position: absolute; 
   top:78px; 
   left:200px;
@@ -55,24 +57,30 @@ header{
 }
 .header-right{
   display:flex;
-  float:right;
-  padding-top:40px;
+  float: right;
+  padding-top:35px;
 }
 /* メニュー */
 .header-menu{
+  display:none;
+}
+.menu{
   display:none;
 }
 /* メニュー */
 
 .header-contents{
   position: relative;
-  background-color:rgba(255, 172, 29,0.8);
+  background-color:rgba(255, 172, 29,0.3);
   border-radius:100px;
   width:120px;
   height:120px;
-  margin-right:50px;
+  margin-right:30px;
   margin-top:15px;
 }
+.header-contents:hover{
+  opacity:0.8;
+ }
 .header-right p{
   width:100%;
   font-size:12px;
@@ -92,34 +100,7 @@ header{
   padding-left:10px;
 }
 
-.header-right_wrapper{
-  width:150px;
-  height:150px;
-  border-radius:100%;
-  margin-right:30px;
-  background-color:#FFA500;
-  opacity:0.7;
-  text-align:center;
-  position: relative;
-}
-
-.header-right_wrapper:hover{
- opacity:1;
-}
-.header-right_wrapper p{
-  position:absolute;
-  top:33%;
-  left:10%;
-  font-size:14px;
-  color:white;
-  /* margin-top:65px; */
-}
-
 /* トップ部分 */
-.top-wrapper{
-
-}
-
 .container-top {
   display: flex;
   justify-content: center;
@@ -135,9 +116,11 @@ header{
   text-align: center;
   z-index:1;
 }
+
 .top-box p {
   color: #FFA500;
 }
+
 
 /* ここまでトップ */
 
@@ -146,6 +129,7 @@ header{
 .main-wrapper{
   padding:100px 0px;
   background-color:#f5f5f5;
+  margin-bottom:100px;
 }
 .main-container{
 background-color:white;
@@ -160,7 +144,7 @@ border-radius:50px;
   width:60%;
   margin:auto;
 }
-.orange-logo-mv{
+.luck-logo-mv{
   display:none;
 }
 
@@ -273,12 +257,12 @@ button {
   .panel {max-width:960px;text-align:center;position:relative;margin:auto;}
   
 
-.pink button {color:#FFA500;border-color:#FFA500}
-.pink button:before, .pink button:after  {border-color:#FFA500}
-.pink button:hover:before, .pink button:hover:after {border-color:#FFA500;}
-.pink button:hover {color:#fff;background-color:#FFA500;border-color:#FFA500;}
-.pink .panel {
-  max-width:960px;text-align:center;position:relative;margin:auto;
+  .pink button {color:#FFA500;border-color:#FFA500}
+  .pink button:before, .pink button:after  {border-color:#FFA500}
+  .pink button:hover:before, .pink button:hover:after {border-color:#FFA500;}
+  .pink button:hover {color:#fff;background-color:#FFA500;border-color:#FFA500;}
+  .pink .panel {
+    max-width:960px;text-align:center;position:relative;margin:auto;
 }
 
 
@@ -295,4 +279,80 @@ footer h5 {
 footer {
   padding-top: 30px;
   color: #b3aeb5;
+}
+/* スワイパー */
+.swiper-container-arange{
+  width: 700px;
+  height: 400px;
+  margin:auto;
+  position: relative;
+}
+.swiper-container {
+  width: 600px;
+  height: 400px;
+  margin:auto;
+  
+}
+
+.swiper-button{
+  color:gray;
+}
+.slide-item{
+  width: 600px;
+  height: 400px;
+  color:black;
+  text-align: center;
+  background-size: contain;
+}
+.slide-item p{
+  background-color:rgba(26, 25, 25, 0.7);
+  color:#EEEEEE;
+  padding:100px;
+  margin-top:90px;
+}
+.slide-item:nth-child(1){
+  background-image:url(img/picnick-slide.jpg);
+  /* background-image:url(img/picnick-slide-min.jpg); */
+}
+.slide-item:nth-child(2){
+  background-image:url(img/p9781-slide.jpg);
+}
+.slide-item:nth-child(3){
+  background-image:url(img/thramis-slide.jpg);
+}
+/* .slide-item:nth-child(5){
+  background-size: cover;
+  background-image:url(img/xlmspan.jpg);
+} */
+.faq-wrapper{
+  width:50%;
+  margin:auto;
+  padding-top:100px;
+  color:grey;
+}
+.faq-list-item {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.faq-list-item h3 {
+  font-size: 14px;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:13px;
+}
+
+.answer {
+  font-size: 12px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  display:none;
 }
