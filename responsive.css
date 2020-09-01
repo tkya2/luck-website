@@ -8,7 +8,9 @@
     float:right;
     padding-top:73px;
     padding-right:50px;
-    color:grey;  }
+    color:grey;
+      }
+    
   .menu-title{
     border-bottom:1px solid #CCC;
   }
@@ -17,26 +19,26 @@
    position:relative;
    cursor:pointer;
    text-align: left;
- }
+  }
  
- .menu-list-item h3 {
-   font-size: 23px;
-   font-weight:normal;
- }
+  .menu-list-item h3 {
+    font-size: 23px;
+    font-weight:normal;
+  }
  
- .menu-name {
-   font-size: 18px;
-   /* padding: 5px 0px; */
-   /* margin-bottom: 5px; */
-   /* displayプロパティをnoneにしてください */
-   display: none;
- }
+  .menu-name {
+    font-size: 18px;
+    /* padding: 5px 0px; */
+    /* margin-bottom: 5px; */
+    /* displayプロパティをnoneにしてください */
+    display: none;
+  }
  .menu-name p{
    font-size:14px;
    text-align:center;
    color:grey;
- }
-
+  }
+}
 /* スマホ向けレイアウト */
 @media all and (max-width: 900px) {
   header{
@@ -65,207 +67,216 @@
     margin:auto;
   }
 /* レスポンシブメニュー */
-  .faq{
-    padding-top:45px;
-    padding-right:8px;
-   }
-  .faq-list-item h3 {
-    font-size:14px;
-   }
-  .answer p{
+  .menu{
+    padding-top:40px;
+    padding-right:50px;
+  }
+  .menu-list-item {
+  margin:10px;
+  }
+  .menu-list-item h3 {
+  font-size: 18px;
+  }
+  .menu-name {
+  font-size: 12px;
+  display: none;
+  }
+  .menu-name p{
+  font-size:8px;
+  text-align:center;
+  color:grey;
+  }
+/* メニュー終わり */
+  .container-top {
+    height: 60vh;
+  }
+  .top-box{
+    font-size:80%;
+    margin-bottom:230px;
+  }
+/* ここからメイン */
+  .main-container{
+    padding:45px 0px;
+    width:80%;
+  }
+
+  .main-contents_left{
+    margin-right:100px;
+  }
+  .main-contents_left img{
+    top:30px;
+    left:95%;
+    width:160px;
+  }
+  .main-contents_right{
+    margin-left:100px;
+  }
+  .main-contents_company-image{
+    margin-left:100px;
+  }
+  .luck-logo-pc{
+    display:none;
+  }
+  .luck-logo-mv{
+    display:block;
+    width:110px;
+    float:right;
+  }
+  .main-contents_right img{
+    position: absolute;
+    top:30px;
+    right:110%;
+    width:100px;
+  }
+  .main-contents_company-image img{
+    position: absolute;
+    top:30px;
+    right:90%;
+    width:170px;
+  }
+  .main-contents h2{
+    font-size:11px;
+  }
+  .main-contents p{
     font-size:10px;
-   }
-    /* メニュー終わり */
+  }
+  /* ここまでメイン */
 
-    .container-top {
-      height: 60vh;
-    }
-    .top-box{
-      font-size:80%;
-      margin-bottom:230px;
-    }
-  /* ここからメイン */
-    .main-container{
-      padding:45px 0px;
-      width:80%;
-    }
+  /* ここからフッター */
+  button {
+    width:120px;
+    padding:10px 0px;
+  }
+  .btn-wrapper h3{
+    font-size:16px;
+  }
+  footer{
+    font-size:40%;
+  }
+  .btn-bottom{
+    height:35vh;
+  }
 
-    .main-contents_left{
-      margin-right:100px;
+  /* ここからprojects */
+  .detail-container-top{
+    height:20vh;
+  }
+  table{
+    font-size:12px;
+  }
+  .projects-contents tr td{
+    padding:10px 20px;
+  }
+  .map-wrapper{
+    width:350px;
+    margin:auto;
     }
-    .main-contents_left img{
-      top:30px;
-      left:95%;
-      width:160px;
-    }
-    .main-contents_right{
-      margin-left:100px;
-    }
-    .main-contents_company-image{
-      margin-left:100px;
-    }
-    .luck-logo-pc{
-      display:none;
-    }
-    .luck-logo-mv{
-      display:block;
-      width:110px;
-      float:right;
-    }
-    .main-contents_right img{
-      position: absolute;
-      top:30px;
-      right:110%;
-      width:100px;
-    }
-    .main-contents_company-image img{
-      position: absolute;
-      top:30px;
-      right:90%;
-      width:170px;
-    }
-    .main-contents h2{
-      font-size:11px;
-    }
-    .main-contents p{
-      font-size:10px;
-    }
-    /* ここまでメイン */
+  .luck-map{
+    width:350px;
+    height:250px;
+  }
 
-    /* ここからフッター */
-    button {
-      width:120px;
-      padding:10px 0px;
-    }
-    .btn-wrapper h3{
-      font-size:16px;
-    }
-    footer{
-      font-size:40%;
-    }
-    .btn-bottom{
-      height:35vh;
-    }
+  /* ここからdetail */
+  .detail-top-wrapper{
+    font-size:40%;
+  }
+  .detail-wrapper h2{
+    font-size:18px;
+  }
 
-    /* ここからprojects */
-    .detail-container-top{
-      height:20vh;
-    }
-    table{
-      font-size:12px;
-    }
-    .projects-contents tr td{
-      padding:10px 20px;
-    }
-    .map-wrapper{
-      width:350px;
-      margin:auto;
-     }
-    .luck-map{
-      width:350px;
-      height:250px;
-    }
-    
-    /* ここからdetail */
-    .detail-top-wrapper{
-      font-size:40%;
-    }
-    .detail-wrapper h2{
-      font-size:18px;
-    }
-    
-    .detail-container{
-      width: 90%;
-      margin:auto;
-      background-image:url(img/PAK86_komorebitohizashi_TP_V.jpg);
-      background-size:cover;
-      padding:60px 0px;
-      border-radius:25px;
-      margin-bottom:80px;
-    }
-    .detail-container-second{
-      background-image:url(img/shiroTM620GFVL3424_TP_V.jpg);
-    }
-    .detail-description{
-      background:rgba(255,255,255,0.9);
-    padding:50px 0px;
-    }
-    .detail-writer{
-      width:90%;
-    }
-    .detail-writer p{
-      font-size:13px;
-    }
-    
+  .detail-container{
+    width: 90%;
+    margin:auto;
+    background-image:url(img/PAK86_komorebitohizashi_TP_V.jpg);
+    background-size:cover;
+    padding:60px 0px;
+    border-radius:25px;
+    margin-bottom:80px;
+  }
+  .detail-container-second{
+    background-image:url(img/shiroTM620GFVL3424_TP_V.jpg);
+  }
+  .detail-description{
+    background:rgba(255,255,255,0.9);
+  padding:50px 0px;
+  }
+  .detail-writer{
+    width:90%;
+  }
+  .detail-writer p{
+    font-size:13px;
+  }
 
-    .agreement-contents{
-      width:90%;
-      border-radius:25px;
-    }
-    .agreement-contents h2{ 
-      font-size:20px;
-      padding:30px;
-    }
-    .agreement-contents table{
-      padding:0px;
-      border-spacing: 20px;
-    }
-    .agreement-contents tr td{
-      padding:15px 20px;
-      border-radius:100px;
-    }
-    .agreement-contents td{
-      margin-bottom:100px;
-    }
+
+  .agreement-contents{
+    width:90%;
+    border-radius:25px;
+  }
+  .agreement-contents h2{ 
+    font-size:20px;
+    padding:30px;
+  }
+  .agreement-contents table{
+    padding:0px;
+    border-spacing: 20px;
+  }
+  .agreement-contents tr td{
+    padding:15px 20px;
+    border-radius:100px;
+  }
+  .agreement-contents td{
+    margin-bottom:100px;
+}
 /* ここからpersonnel */
-.personnel-top-wrapper{
-  font-size:40%;
-}
-.personnel-container-top{
-  height: 30vh;
-}
-.personnel_member{
-  background-image:url(img/bluesoda.jpg);
-}
-.personnel_member_second{
-  background-image:url(img/p3959.jpg);
-}
-.personnel_member_therd{
-  background-image:url(img/MIZUHODSC_0263_TP_V4.jpg);
-}
-.personnel_writer{
-  width:55%;
-  margin:auto;
-}
+  .personnel-top-wrapper{
+    font-size:40%;
+  }
+  .personnel-container-top{
+    height: 30vh;
+  }
+  .personnel_member{
+    background-image:url(img/bluesoda.jpg);
+  }
+  .personnel_member_second{
+    background-image:url(img/p3959.jpg);
+  }
+  .personnel_member_therd{
+    background-image:url(img/MIZUHODSC_0263_TP_V4.jpg);
+  }
+  .personnel_writer{
+    width:55%;
+    margin:auto;
+  }
 
-.personnel_description{
-  width:60%;
-  margin:auto;
-}
-/* ここからコンタクト */
-.contact-top-wrapper{
-  font-size:50%;
-}
-/* スライダー */
-.swiper-container-arange{
-  width: 420px;
-  height: 210px;
-  margin:auto;
-}
-.swiper-container {
-  width: 320px;
-  height:210px;
-}
-.slide-item p{
-  padding:40px;
-  margin-top:60px;
-  font-size:70%;
-}
-.slide-item:nth-child(1){
-  background-image:url(img/picnick-slide.jpg);
-}
+  .personnel_description{
+    width:60%;
+    margin:auto;
+  }
+  /* ここからコンタクト */
+  .contact-top-wrapper{
+    font-size:50%;
+  }
+  /* スライダー */
+  .swiper-container-arange{
+    width: 420px;
+    height: 210px;
+    margin:auto;
+  }
+  .swiper-container {
+    width: 320px;
+    height:210px;
+  }
+  .slide-item p{
+    padding:40px;
+    margin-top:60px;
+    font-size:70%;
+  }
+  .slide-item:nth-child(1){
+    background-image:url(img/picnick-slide.jpg);
+  }
 
+
+
+  }
 /* ここまでメディアクエリ900以下 */
 
-}
-}

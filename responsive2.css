@@ -1,0 +1,139 @@
+@media all and (max-width: 600px) {
+  header{
+    height:100px;
+  }
+/* ヘッダー */
+  span.luck-ruv{
+    display:none;
+  }
+  span#hp-title{
+    display:none;
+  }
+  .header-logo{
+    height:250;
+    width:50%;
+    padding-top:20px;
+    padding-left:10px;
+    float:none;
+  }
+  .header-left h1{
+    font-size:10px;
+    font-weight:normal;
+    letter-spacing:0.1em; 
+    top:30px;
+    left:70px;
+  }
+/* ヘッダーend */
+/* レスポンシブメニュー */
+.menu{
+  padding-top:13px;
+  padding-right:10px;
+}
+.menu-list-item {
+margin:10px;
+}
+.menu-list-item h3 {
+font-size: 10px;
+}
+.menu-name {
+font-size: 8px;
+}
+.menu-name p{
+font-size:4px;
+text-align:center;
+color:grey;
+}
+/* レスポンシブメニュー終わり */
+  .luck-logo-mv{
+    display:none;
+  }
+  .main-contents-writer{
+    width:100%;
+  }
+  .main-contents h2{
+    background-color:rgb(46,139,87,0.7);
+    font-size:10px;
+    font-weight:normal;
+    padding:20px 0 ;
+    margin-top:20px;
+    color:white;
+    text-align:center;
+  }
+  .main-contents_left{
+    margin-right:50px;
+  }
+  .main-contents_right{
+    margin-left:50px;
+  }
+  .main-contents_right img{
+    top:20px;
+    left:-35%;
+    width:60px;
+  }
+  .main-contents_left img{
+    top:20px;
+    left:100%;
+    width:90px;
+  }
+  .main-contents_company-image{
+    margin-left:40px;
+  }
+  .main-contents_company-image img{
+    top:20px;
+    left:-45%;
+    width:130px;
+  }
+/* スライダー */
+  .swiper-container-arange{
+    width: 330px;
+    height: 180px;
+  }
+  .swiper-container {
+    width: 240px;
+    height: 180px;
+  }
+  .slide-item p{
+    padding:25px;
+    margin-top:60px;
+    font-size:70%;
+  }
+  .slide-item:nth-child(1){
+    background-image:url(img/picnick-slide.jpg);
+  }
+/* スライダー */
+/* Q&A */
+.faq-wrapper{
+  width:100%;
+  margin:auto;
+  padding-top:100px;
+
+  color:grey;
+}
+.faq-list-item {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.faq-list-item h3 {
+  font-size: 10px;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:13px;
+}
+
+.answer {
+  font-size: 7px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  display:none;
+}
+/* Q&A */
+}

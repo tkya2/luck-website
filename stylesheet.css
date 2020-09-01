@@ -324,6 +324,7 @@ footer {
   background-size: cover;
   background-image:url(img/xlmspan.jpg);
 } */
+/* Q&A */
 .faq-wrapper{
   width:50%;
   margin:auto;
@@ -356,3 +357,4 @@ footer {
   margin-bottom: 15px;
   display:none;
 }
+/* Q&A */
