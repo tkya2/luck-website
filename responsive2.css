@@ -21,13 +21,13 @@
     font-weight:normal;
     letter-spacing:0.1em; 
     top:27px;
-    left:80px;
+    left:70px;
   }
 /* ヘッダーend */
 /* レスポンシブメニュー */
 .menu{
   padding-top:15px;
-  padding-right:20px;
+  padding-right:10px;
 }
 .menu-list-item {
 margin:10px;
@@ -45,6 +45,10 @@ color:grey;
 }
 /* レスポンシブメニュー終わり */
 /* index.html */
+  .main-container{
+    width:100%;
+    border-radius:0px;
+    }
   .container-top {
     height: 85vh;
   }
@@ -67,19 +71,19 @@ color:grey;
   }
   .main-contents_right img{
     top:20px;
-    left:-15%;
+    left:-10%;
     width:50px;
     transform: rotateX( 0deg );
   }
   .main-contents_left img{
     top:20px;
-    left:100%;
+    left:90%;
     width:70px;
     transform: rotateX( 0deg );
   }
   .main-contents_company-image img{
     top:80px;
-    left:-35%;
+    left:-25%;
     width:110px;
   }
 /* index.html */
@@ -240,7 +244,7 @@ color:grey;
   display:none;
 }
 /* Q&A */
-.container-top{
+.footer-container-top{
   height:200px;
 }
 }
