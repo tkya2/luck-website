@@ -1,7 +1,4 @@
 .personnel-top-wrapper{
-  /* height:200px;
-  color:#808080;
-  padding-bottom:20px;  */
   font-size:70%;
 }
 .personnel-container-top{
@@ -79,7 +76,7 @@
 
 .personnel-swiper-container {
   width: 600px;
-  height: 400px;
+  height: 500px;
   margin:auto;
 }
 .personnel-swiper-button{

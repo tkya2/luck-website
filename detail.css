@@ -48,7 +48,7 @@
 }
 .detail-description{
   background:rgba(255,255,255,0.7);
-padding:50px 0px;
+  padding:10px 0px;
 }
 .detail-writer{
   margin:auto;
@@ -87,7 +87,6 @@ padding:50px 0px;
 
 .detail-work-wrapper{
   font-size:80%;
-
 }
 .detail-work-wrapper h1{
   font-weight:normal;
@@ -120,7 +119,7 @@ padding:50px 0px;
 .work-slide-item{
   width: 600px;
   height: 400px;
-  color:black;
+  color:gray;
   text-align: center;
   background-size: contain;
 }
