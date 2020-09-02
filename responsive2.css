@@ -17,7 +17,7 @@
     float:none;
   }
   .header-left h1{
-    font-size:12px;
+    font-size:14px;
     font-weight:normal;
     letter-spacing:0.1em; 
     top:27px;
@@ -26,17 +26,17 @@
 /* ヘッダーend */
 /* レスポンシブメニュー */
 .menu{
-  padding-top:13px;
+  padding-top:15px;
   padding-right:20px;
 }
 .menu-list-item {
 margin:10px;
 }
 .menu-list-item h3 {
-font-size: 14px;
+font-size: 13px;
 }
 .menu-name {
-font-size: 12px;
+font-size: 10px;
 }
 .menu-name p{
 font-size:12px;
@@ -46,7 +46,7 @@ color:grey;
 /* レスポンシブメニュー終わり */
 /* index.html */
   .container-top {
-    height: 80vh;
+    height: 85vh;
   }
   .luck-logo-mv{
     display:none;
@@ -69,11 +69,13 @@ color:grey;
     top:20px;
     left:-15%;
     width:50px;
+    transform: rotateX( 0deg );
   }
   .main-contents_left img{
     top:20px;
     left:100%;
     width:70px;
+    transform: rotateX( 0deg );
   }
   .main-contents_company-image img{
     top:80px;
@@ -163,7 +165,7 @@ color:grey;
   }
 /* contact.html */
   .contact-form-contents{
-    height:1600px;
+    height:1700px;
     background-image:url(img/p9367.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -238,4 +240,7 @@ color:grey;
   display:none;
 }
 /* Q&A */
+.container-top{
+  height:200px;
+}
 }

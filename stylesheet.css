@@ -279,6 +279,7 @@ footer h5 {
 footer {
   padding-top: 30px;
   color: #b3aeb5;
+  height:32vh;
 }
 /* スワイパー */
 .swiper-container-arange{
