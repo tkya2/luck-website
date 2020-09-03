@@ -102,3 +102,54 @@ $(function() {
     }
   });
 });
+
+// personnel slidemessage
+window.onload = function () {
+  autoScroll();
+}
+var $scrollY = 0;
+function autoScroll() {
+  var $sampleBox = document.getElementById( "text-move-Box" );
+  $sampleBox.scrollTop = ++$scrollY;
+  if( $scrollY < $sampleBox.scrollHeight - $sampleBox.clientHeight ){
+      setTimeout( "autoScroll()", 20 );
+  }else{
+      $scrollY = 0;
+      $sampleBox.scrollTop = 0;
+      setTimeout( "autoScroll()", 20 );
+  }
+}
+// anime.js利用
+ 
+/* ========================================================
+スクロールでトップに戻るボタンを表示
+=========================================================*/
+// スクロールして何ピクセルでアニメーションさせるか
+var px_change = 150;
+// スクロールのイベントハンドラを登録
+window.addEventListener('scroll', function(e) {
+	// 変化するポイントまでスクロールしたらクラスを追加
+	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+	if ( scrollTop > px_change ) {
+		document.getElementById( "btn-backtotop" ).classList.add( "fadein" );
+ 
+	// 変化するポイント以前であればクラスを削除
+	} else {
+		document.getElementById( "btn-backtotop" ).classList.remove( "fadein" );
+	}
+});
+ 
+/* ========================================================
+トップに戻るボタンのスムーズスクロール
+=========================================================*/
+ 
+document.getElementById( "btn-backtotop" ).addEventListener('click', function(e) {
+	anime.remove("html, body");
+	anime({
+		targets: "html, body",
+		scrollTop: 0,
+		dulation: 600,
+		easing: 'easeOutCubic',
+	});
+	return false;
+});

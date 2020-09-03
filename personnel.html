@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="description" content="合同会社T&E,就労継続支援B型,大阪就労継続支援B型,障害者支援,豊中市障害者支援,豊中市就労継続支援,豊中市就労継続支援B型,楽,就労継続支援B型ラック,ラク,らく">
     <meta name="keywords" content="合同会社T&E,就労継続支援B型,大阪就労継続支援B型,障害者支援,豊中市障害者支援,豊中市就労継続支援,豊中市就労継続支援B型,楽,就労継続支援B型ラック,ラク,らく">
     <title>就労継続支援B型楽(ラック)|職員紹介</title>
@@ -12,8 +13,8 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="personnel.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="responsive2.css">
     <meta name="google-site-verification" content="Po8gbdF86EF1vjpcfS9LsyqYfhJ7xCuRc8q4reYHF6w" />
   </head>
@@ -145,27 +146,44 @@
         </div>
       </div>
     </div>
-      <!-- Slider全体のコンテナ(class名変えたらバグる) -->
-      <div class="swiper-container">
-        <!-- Sliderの内包コンテナ(class名変えたらバグる) -->
-        <div class="swiper-wrapper">
-          <!-- Slideさせたいコンテンツ -->
-          <div class="swiper-slide personnel-slide-item"><img src="img/koyama.JPG"><p>こんにちは！私たちが支援員です！<br>頑張ります！</p></div>
-          <div class="swiper-slide personnel-slide-item"><img src="img/illustrain05-shinshakaijin01.png"><p>こんにちは！私たちが支援員です！<br>頑張ります！</p></div>
-          <div class="swiper-slide personnel-slide-item"><img src="img/illustrain05-shinshakaijin02.png"><p>こんにちは！私たちが支援員です！<br>頑張ります！</p></div>
-        </div>
+    <!-- Slider全体のコンテナ(class名変えたらバグる) -->
+    <div class="swiper-container personnel-swiper-container">
+      <!-- Sliderの内包コンテナ(class名変えたらバグる) -->
+      <div class="swiper-wrapper">
+        <!-- Slideさせたいコンテンツ -->
+        <div class="swiper-slide personnel-slide-item"><img src="img/koyama.JPG"><p>こんにちは！私たちが支援員です！<br>頑張ります！</p></div>
+        <div class="swiper-slide personnel-slide-item"><img src="img/illustrain05-shinshakaijin01.png"><p>こんにちは！私たちが支援員です！<br>頑張ります！</p></div>
+        <div class="swiper-slide personnel-slide-item"><img src="img/illustrain05-shinshakaijin02.png"><p>こんにちは！私たちが支援員です！<br>頑張ります！</p></div>
       </div>
+    </div>
+    <div class="move-text-wrapper">
+      <h2 class="promis">職員から皆様へ<br>- - - - - - ８の約束 - - - - - -</h2>
+      <div id="text-move-Box">
+        <p id="text-move">
+          <br><br>
+          1. 私たちは常に笑顔でいることを忘れません<br><br>
+          2. 私たちは職員、利用者、楽に関わる全ての人を尊敬します<br><br>
+          3. 利用者に対し、どのような場合でも差別しません。<br><br>
+          4. どのような場合でもあなたという「個人」を尊重します<br><br>
+          5. 利用者や家族の｢思い｣を大切に、温もりのある支援を提供します。<br><br>
+          6. 利用者や家族との信頼関係を大切にします。<br><br>
+          7. 私たちは互いに思いやり信頼し合いながら成長します。<br><br>
+          8. 法令、モラルを遵守し、健全な施設運営に努めます。<br><br>
+        </p>
+      </div>
+    </div>
     <div class="btn-wrapper">
       <h3>facilities that are the used for social welfare<br>Luck</h3>
       <div class="panel pink">
         <!-- <a href="contact.html"><button>Hello world!</button></a> -->
-        <a href="mailto:***********"><button>e-mail</button></a>
-        <a href="tel:***********"><button>tel</button></a>
+        <a href="mailto:tande.luck0801@gmail.com"><button>e-mail</button></a>
+        <a href="tel:0668459123"><button>tel</button></a>
       </div>
     </div>
+    <a href="#top" id="btn-backtotop"><span class="arrow arrow_up"></span></a>
     <footer>
       <div class="container">
-        <h5>合同会社T&E</h5>
+        <h5>就労継続支援B型楽(ラック)</h5>
         <small>&copy; 2020 takuya_koyama.</small>
       </div>
       <div class="container-top btn-bottom footer-container-top">
@@ -176,6 +194,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/raindrops.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/Users/koyamatakuya/anime-master/lib/anime.min.js"></script>
     <script src="raindrops.js"></script>
     <script src="script.js"></script>
   </body>

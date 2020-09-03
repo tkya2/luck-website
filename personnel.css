@@ -73,7 +73,6 @@
   margin:auto;
 }
 /* スワイパー */
-
 .personnel-swiper-container {
   width: 600px;
   height: 500px;
@@ -96,12 +95,35 @@
   padding-bottom:20px;
 }
 
-.personnel-slide-item img:nth-child(1){
+/* 自動スクロール */
+  .move-text-wrapper{
+    background-color:whitesmoke;
+    height:540px;
+  }
+  .promis{
+    font-size:18px;
+    color:whitesmoke;
+    text-align:center;
+    padding:20px;
+    background-color:rgba(46,139,87,0.7);
+    border-bottom: 1px solid #CCC;
+  }
+  #text-move-Box {
+    width: 600px;
+    height: 420px;
+    margin:auto;
+    overflow: hidden;
     
-}
-.personnel-slide-item:nth-child(2){
- 
-}
-.personnel-slide-item:nth-child(3){
-
-}
+    background-image:url(img/pangreen600-420.jpg);
+    color:#333333	;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 16px;
+    /* border: 1px solid gray;
+    border-radius: 10px; */
+  }
+  #text-move {
+    margin: 440px 0;
+    text-align:left;
+    background-color:rgba(255, 255, 255, 0.8);
+  }

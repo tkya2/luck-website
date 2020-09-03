@@ -61,7 +61,6 @@
     top:55px;
     left:120px;
   }
-
   .main-contents-writer{
     width:80%;
     margin:auto;
@@ -140,6 +139,10 @@
   .main-contents p{
     font-size:10px;
   }
+  .faq-wrapper{
+    width:600px;
+    padding-top:100px;
+  }
   /* ここまでメイン */
 
   /* ここからフッター */
@@ -178,36 +181,23 @@
 
   /* ここからdetail */
   .detail-top-wrapper{
-    font-size:40%;
+    font-size:60%;
   }
   .detail-wrapper h2{
     font-size:18px;
   }
 
   .detail-container{
-    width: 90%;
-    margin:auto;
-    background-image:url(img/PAK86_komorebitohizashi_TP_V.jpg);
-    background-size:cover;
-    padding:60px 0px;
-    border-radius:25px;
-    margin-bottom:80px;
+    width: 80%;
+    padding:50px 0px;
   }
-  .detail-container-second{
-    background-image:url(img/shiroTM620GFVL3424_TP_V.jpg);
-  }
-  .detail-description{
-    background:rgba(255,255,255,0.9);
-  padding:50px 0px;
-  }
+ 
   .detail-writer{
-    width:90%;
+    width:80%;
   }
   .detail-writer p{
     font-size:13px;
   }
-
-
   .agreement-contents{
     width:90%;
     border-radius:25px;
@@ -226,13 +216,27 @@
   }
   .agreement-contents td{
     margin-bottom:100px;
-}
+  }
+  .work-swiper-container {
+    padding-bottom:400px;
+  }
 /* ここからpersonnel */
   .personnel-top-wrapper{
-    font-size:40%;
+    font-size:70%;
   }
   .personnel-container-top{
     height: 30vh;
+  }
+  
+  .personnel_writer{
+    width:65%;
+    padding-top:30px;
+  }
+  .personnel_writer img{
+    width:40%;
+  }
+  .personnel_description{
+    width:70%;
   }
   .personnel_member{
     background-image:url(img/bluesoda.jpg);
@@ -241,17 +245,16 @@
     background-image:url(img/p3959.jpg);
   }
   .personnel_member_therd{
-    background-image:url(img/MIZUHODSC_0263_TP_V4.jpg);
+    background-image:url(img/bluesoda.jpg);
   }
-  .personnel_writer{
-    width:55%;
-    margin:auto;
+  .personnel_member_fourth{
+    background-image:url(img/p3959.jpg);
   }
 
-  .personnel_description{
-    width:60%;
-    margin:auto;
+  .personnel-swiper-container {
+    padding-bottom:300px;
   }
+
   /* ここからコンタクト */
   .contact-top-wrapper{
     font-size:50%;
