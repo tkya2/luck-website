@@ -71,19 +71,19 @@ color:grey;
   }
   .main-contents_right img{
     top:20px;
-    left:0%;
-    width:40px;
+    left:-10%;
+    width:55px;
     transform: rotateX( 0deg );
   }
   .main-contents_left img{
     top:20px;
-    left:89%;
-    width:60px;
+    left:95%;
+    width:70px;
     transform: rotateX( 0deg );
   }
   .main-contents_company-image img{
     top:80px;
-    left:-10%;
+    left:-30%;
     width:110px;
   }
 /* index.html */
