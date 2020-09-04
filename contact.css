@@ -1,42 +1,72 @@
-.contact-top-wrapper{
-  font-size:70%;
+  .ml6 {
+    color:#FF9933; 
+  }
+
+  .contact-top-wrapper{
+    font-size:70%;
+  }
+  .contact-container-top{
+    background-color:hsl(0, 0%, 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    color:gray;
+    font-family: 'Quicksand', sans-serif;
+    width:100%;
+  }
+  .contact-top-box{
+    padding: 20px;
+    text-align: center;
+    z-index:1;
+  }
+  .contact-top-box h1,h2{
+    font-weight:normal;
+  }
+  .contact-form-contents{
+    height:1400px;
+    background-image:url(img/p9367.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:hsl(0, 0%, 97%);
+  }
+  .contact-form{
+    color:gray;
+    text-align:center;
+    font-size:70%;
+    /* font-weight:lighter; */
+    margin-bottom:100px;
+    background-color:hsl(0, 0%, 97%);
+  }
+  .contact-form h1,h2{
+    /* font-size:90%; */
+    font-weight:normal;
+    
+  }
+
+
+
+
+
+
+:root {
+  --black: #2a2a33;
+  --white: #fff;
+  --grey: #dedede;
+  --primary-color: #4c4d5e;
+  --primary-color-dark: #353642;
+  --primary-color-tint: #63647a;
+  --secondary-color: #68e8d7;
+  --secondary-color-rgba: rgba(104, 232, 215, 0.7);
+  --secondary-color-dark: #3ce1cb;
+  --secondary-color-tint: #94efe3;
+  --background-color: #777891;
+  --blush-color: #ff6ec7;
+  --mouth-inner-color: #633440;
+  --face-detail-color: var(--black);
+  --choco: #4d4443;
+  --choco-dark: #423c3b;
+  --shadow-color: #707187;
 }
-.contact-container-top{
-  background-color:hsl(0, 0%, 97%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40vh;
-  color:gray;
-  font-family: 'Quicksand', sans-serif;
-  width:100%;
-}
-.contact-top-box{
-  padding: 20px;
-  text-align: center;
-  z-index:1;
-}
-.contact-top-box h1,h2{
-  font-weight:normal;
-}
-.contact-form-contents{
-  height:1400px;
-  background-image:url(img/p9367.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color:hsl(0, 0%, 97%);
-}
-.contact-form{
-  color:gray;
-  text-align:center;
-  font-size:70%;
-  /* font-weight:lighter; */
-  margin-bottom:100px;
-  background-color:hsl(0, 0%, 97%);
-}
-.contact-form h1,h2{
-  /* font-size:90%; */
-  font-weight:normal;
-  
-}
+

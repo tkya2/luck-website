@@ -1,3 +1,4 @@
+
 /* タブレット向けレイアウト */
 @media all and (max-width: 1350px) {
   .header-right{
@@ -39,6 +40,17 @@
    color:grey;
   }
 }
+  .personnel-title-wrapper{
+    /* background-color:#FFBEDA; */
+    height:180px;
+    width:800px;
+  }
+  .ml6 {
+    font-size: 1.8em;
+  }
+  .text-wrapper{
+    height:40px;
+  }
 /* スマホ向けレイアウト */
 @media all and (max-width: 900px) {
   header{
@@ -221,6 +233,17 @@
     padding-bottom:400px;
   }
 /* ここからpersonnel */
+  .personnel-title-wrapper{
+  
+    height:155px;
+    width:600px;
+  }
+  .ml6 {
+    font-size: 1.3em;
+  }
+  .text-wrapper{
+    height:26px;
+  }
   .personnel-top-wrapper{
     font-size:70%;
   }
@@ -282,4 +305,5 @@
 
   }
 /* ここまでメディアクエリ900以下 */
+
 

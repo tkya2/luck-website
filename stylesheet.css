@@ -30,6 +30,7 @@ header{
   width: 100%;
   background-color: white;
   height:230px;
+  z-index:100;
 }
 .header-logo{
   /* height:70%;
@@ -99,7 +100,39 @@ header{
   padding-top:15px;
   padding-left:10px;
 }
+/* トップ部分動くメッセージ */
+.personnel-title-wrapper{
+  height:200px;
+  width:1000px;
+  margin:auto;
+  border-radius:500px;
+  margin-bottom:100px;
+}
+.ml6 {
+  position: relative;
+  font-weight: 600;
+  font-size: 2.3em;
+  text-align: center;
+  color:#FFBEDA; 
+}
+.text-wrapper{
+  height:50px;
+}
+.ml6 .text-wrapper {
+  /* width:50%; */
+  position: relative;
+  display: inline-block;
+  margin-top:65px;
+  padding-top: 0em;
+  padding-right: 0.05em;
+  padding-bottom:0px;
+  overflow: hidden;
+}
 
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
 /* トップ部分 */
 
 .container-top {

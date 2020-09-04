@@ -1,99 +1,99 @@
-.personnel-top-wrapper{
-  font-size:70%;
-}
-.personnel-container-top{
-  background-color:hsl(0, 0%, 97%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  color:gray;
-  font-family: 'Quicksand', sans-serif;
-  width:100%;
-}
-.personnel-top-box{
-  padding: 20px;
-  text-align: center;
-  z-index:1;
-}
-.personnel_intro{
-  background-color:hsl(0, 0%, 97%);
-  padding-top:10px;
-  margin-bottom:100px;
-}
-.personnel-top-wrapper h1,h2{
-  font-weight:normal;
-}
+  .personnel-top-wrapper{
+    font-size:70%;
+  }
+  .personnel-container-top{
+    background-color:hsl(0, 0%, 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color:gray;
+    font-family: 'Quicksand', sans-serif;
+    width:100%;
+  }
+  .personnel-top-box{
+    padding: 20px;
+    text-align: center;
+    z-index:1;
+  }
+  .personnel_intro{
+    background-color:hsl(0, 0%, 97%);
+    padding-top:10px;
+    margin-bottom:100px;
+  }
+  .personnel-top-wrapper h1,h2{
+    font-weight:normal;
+  }
 
 
-.personnel_member{
-  background-color:hsl(0, 0%, 97%);
-  padding-top:0px;
-  height:1000px;
-  background-image:url(img/thiramscafe.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  .personnel_member{
+    background-color:hsl(0, 0%, 97%);
+    padding-top:0px;
+    height:1000px;
+    background-image:url(img/thiramscafe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
-}
-.personnel_member_second{
-  height:1000px;
-  background-image:url(img/thramis.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
-}
-.personnel_member_therd{
-  height:1000px;
-  background-image:url(img/thiramscafe.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
-}
-.personnel_member_fourth{
-  height:1000px;
-  background-image:url(img/thramis.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
-}
-.personnel_writer{
-  text-align:center;
-  width:35%;
-  height:100%;
-  color:whitesmoke;
-  background: rgba(0, 0, 0, 0.8);
-  margin:auto;
-  padding-top:80px;
-}
-.personnel_writer img{
-  width:30%;
-  border-radius:100%;
-  padding-top:20px;
-  padding-bottom:20px;
-}
-.personnel_description{
-  width:60%;
-  margin:auto;
-}
-/* スワイパー */
-.personnel-swiper-container {
-  width: 600px;
-  height: 500px;
-  margin:auto;
-}
-.personnel-swiper-button{
-  color:gray;
-}
-.personnel-slide-item{
-  width: 600px;
-  height: 400px;
-  color:black;
-  text-align: center;
-  background-size: contain;
-}
-.personnel-slide-item img{
-  width:150px;
-  border-radius:20%;
-  padding-top:20px;
-  padding-bottom:20px;
-}
+  }
+  .personnel_member_second{
+    height:1000px;
+    background-image:url(img/thramis.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .personnel_member_therd{
+    height:1000px;
+    background-image:url(img/thiramscafe.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .personnel_member_fourth{
+    height:1000px;
+    background-image:url(img/thramis.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .personnel_writer{
+    text-align:center;
+    width:35%;
+    height:100%;
+    color:whitesmoke;
+    background: rgba(0, 0, 0, 0.8);
+    margin:auto;
+    padding-top:80px;
+  }
+  .personnel_writer img{
+    width:30%;
+    border-radius:100%;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .personnel_description{
+    width:60%;
+    margin:auto;
+  }
+  /* スワイパー */
+  .personnel-swiper-container {
+    width: 600px;
+    height: 500px;
+    margin:auto;
+  }
+  .personnel-swiper-button{
+    color:gray;
+  }
+  .personnel-slide-item{
+    width: 600px;
+    height: 400px;
+    color:black;
+    text-align: center;
+    background-size: contain;
+  }
+  .personnel-slide-item img{
+    width:150px;
+    border-radius:20%;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
 
 /* 自動スクロール */
   .move-text-wrapper{

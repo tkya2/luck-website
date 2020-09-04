@@ -88,6 +88,21 @@ color:grey;
   }
 /* index.html */
 /* personnel.html */
+  span#let-title{
+    display:none;
+  }
+  .personnel-title-wrapper{
+    height:160px;
+    border-radius:0px;
+    width:100%;
+    margin-bottom:50px;
+  }
+  .ml6 {
+    font-size: 1em;
+  }
+  .text-wrapper{
+    height:22px;
+  }
   .personnel-swiper-container {
     padding-bottom:200px;
   }
@@ -196,6 +211,11 @@ color:grey;
     padding-top:0px;
   }
 /* contact.html */
+  .contact-letters-wrapper{
+    /* background-color:#669999; */
+    /* height:200px;  */
+    padding-top:200px;
+  }
   .contact-form-contents{
     height:1700px;
     background-image:url(img/p9367.jpg);
