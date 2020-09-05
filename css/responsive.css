@@ -29,9 +29,6 @@
  
   .menu-name {
     font-size: 18px;
-    /* padding: 5px 0px; */
-    /* margin-bottom: 5px; */
-    /* displayプロパティをnoneにしてください */
     display: none;
   }
  .menu-name p{
@@ -262,16 +259,16 @@
     width:70%;
   }
   .personnel_member{
-    background-image:url(img/bluesoda.jpg);
+    background-image:url(../img/bluesoda.jpg);
   }
   .personnel_member_second{
-    background-image:url(img/p3959.jpg);
+    background-image:url(../img/p3959.jpg);
   }
   .personnel_member_therd{
-    background-image:url(img/bluesoda.jpg);
+    background-image:url(../img/bluesoda.jpg);
   }
   .personnel_member_fourth{
-    background-image:url(img/p3959.jpg);
+    background-image:url(../img/p3959.jpg);
   }
 
   .personnel-swiper-container {
@@ -298,7 +295,7 @@
     font-size:70%;
   }
   .slide-item:nth-child(1){
-    background-image:url(img/picnick-slide.jpg);
+    background-image:url(../img/picnick-slide.jpg);
   }
 
 

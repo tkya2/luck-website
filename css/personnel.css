@@ -30,26 +30,26 @@
     background-color:hsl(0, 0%, 97%);
     padding-top:0px;
     height:1000px;
-    background-image:url(img/thiramscafe.jpg);
+    background-image:url(../img/thiramscafe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
   }
   .personnel_member_second{
     height:1000px;
-    background-image:url(img/thramis.jpg);
+    background-image:url(../img/thramis.jpg);
     background-size:cover;
     background-repeat: no-repeat;
   }
   .personnel_member_therd{
     height:1000px;
-    background-image:url(img/thiramscafe.jpg);
+    background-image:url(../img/thiramscafe.jpg);
     background-size:cover;
     background-repeat: no-repeat;
   }
   .personnel_member_fourth{
     height:1000px;
-    background-image:url(img/thramis.jpg);
+    background-image:url(../img/thramis.jpg);
     background-size:cover;
     background-repeat: no-repeat;
   }
@@ -98,7 +98,7 @@
 /* 自動スクロール */
   .move-text-wrapper{
     background-color:whitesmoke;
-    height:540px;
+    height:740px;
   }
   .promis{
     font-size:18px;
@@ -110,11 +110,12 @@
   }
   #text-move-Box {
     width: 600px;
-    height: 420px;
+    height: 620px;
     margin:auto;
     overflow: hidden;
-    
-    background-image:url(img/pangreen600-420.jpg);
+    background-size:cover;
+    background-image:url(../img/IMG_0703.JPG);
+    background-repeat: no-repeat;
     color:#333333	;
     text-align: center;
     line-height: 1.5em;
@@ -123,7 +124,7 @@
     border-radius: 10px; */
   }
   #text-move {
-    margin: 440px 0;
+    margin: 640px 0;
     text-align:left;
     background-color:rgba(255, 255, 255, 0.8);
   }

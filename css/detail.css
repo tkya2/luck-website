@@ -40,14 +40,14 @@
 .detail-container{
   width: 60%;
   margin:auto;
-  background-image:url(img/PAK86_komorebitohizashi_TP_V.jpg);
+  background-image:url(../img/PAK86_komorebitohizashi_TP_V.jpg);
   background-size:cover;
   padding:150px 0px;
   border-radius:25px;
   margin-bottom:80px;
 }
 .detail-container-second{
-  background-image:url(img/shiroTM620GFVL3424_TP_V.jpg);
+  background-image:url(../img/shiroTM620GFVL3424_TP_V.jpg);
 }
 .detail-description{
   background:rgba(255,255,255,0.7);
@@ -64,7 +64,7 @@
   margin:auto;
   background-color:white;
   border-radius:25px;
-  background-image:url(img/mizuhoDSC_0325_TP_V.jpg);
+  background-image:url(../img/mizuhoDSC_0325_TP_V.jpg);
   background-size:cover;
 }
 .agreement-contents h2{

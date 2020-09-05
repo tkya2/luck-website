@@ -1,20 +1,32 @@
 $('.menu-list-item').click(function() {
+  var HeaderHight = $('.menu-list-item h3').css('font-size');
+  var w = window.outerWidth;
   var $answer = $(this).find('.menu-name');
   if($answer.hasClass('open')) {
     $answer.removeClass('open');
     // slideUpメソッドを用いて、$answerを隠してください
     $answer.slideUp();
-    
     // 子要素のspanタグの中身をtextメソッドを用いて書き換えてください
-    $(this).find('span').text('+');
-    
+    if(w < 1350 && w >900){
+      $('.header').css('height','230px');
+    }else if(w < 900 && w >600){
+      $('.header').css('height','150px');
+    }else if(w < 600){
+      $('.header').css('height','100px');
+    }
   } else {
     $answer.addClass('open'); 
     // slideDownメソッドを用いて、$answerを表示してください
     $answer.slideDown();
-    
     // 子要素のspanタグの中身をtextメソッドを用いて書き換えてください
     $(this).find('span').text('-');
+    if(w < 1350 && w >900){
+      $('.header').css('height','300px');
+    }else if(w < 900 && w >600){
+      $('.header').css('height','200px');
+    }else if(w < 600){
+      $('.header').css('height','200px');
+    }
   }
 });
 
@@ -108,16 +120,36 @@ window.onload = function () {
   autoScroll();
 }
 var $scrollY = 0;
+var w = window.outerWidth;
+var x = 500;
 function autoScroll() {
   var $sampleBox = document.getElementById( "text-move-Box" );
   $sampleBox.scrollTop = ++$scrollY;
-  if( $scrollY < $sampleBox.scrollHeight - $sampleBox.clientHeight ){
-      setTimeout( "autoScroll()", 20 );
+  if ( w > x){
+    if( $scrollY < $sampleBox.scrollHeight - $sampleBox.clientHeight ){
+        setTimeout( "autoScroll()", 15 );
+      }else{
+        $scrollY = 0;
+        $sampleBox.scrollTop = 0;
+        setTimeout( "autoScroll()", 15 );
+      }
   }else{
+    if( $scrollY < $sampleBox.scrollHeight - $sampleBox.clientHeight ){
+      setTimeout( "autoScroll()", 30 );
+    }else{
       $scrollY = 0;
       $sampleBox.scrollTop = 0;
-      setTimeout( "autoScroll()", 20 );
+      setTimeout( "autoScroll()", 30 );
+    }
   }
+  // if( $scrollY < $sampleBox.scrollHeight - $sampleBox.clientHeight ){
+  //   setTimeout( "autoScroll()", 15 );
+  // }else{
+  //   $scrollY = 0;
+  //   $sampleBox.scrollTop = 0;
+  //   setTimeout( "autoScroll()", 15 );
+  // }
+ 
 }
 // anime.js利用
 /* ========================================================
