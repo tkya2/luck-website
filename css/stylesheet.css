@@ -176,7 +176,7 @@ border-radius:50px;
   font-family: 'Quicksand', sans-serif;
 }
 .main-contents-writer{
-  width:60%;
+  width:80%;
   margin:auto;
 }
 .luck-logo-mv{
@@ -237,10 +237,12 @@ border-radius:50px;
   border-radius: 30px 0px 0px 30px;
 }
 .main-contents p{
-  text-align:center;
+  text-align:left;
   color:gray;
 }
-
+.main-contents_company-image p{
+  text-align:center;
+}
 /* ここまでメイン */
 .btn-wrapper {
   text-align: center;

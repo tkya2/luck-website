@@ -55,7 +55,11 @@
 }
 .detail-writer{
   margin:auto;
-  width:50%;
+  width:70%;
+}
+.detail-writer p{
+  text-align:left;
+  color:#333;
 }
 
 .agreement-contents{
